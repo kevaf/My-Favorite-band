@@ -1,0 +1,67 @@
+*{
+    font-family: 'Rubik', 'Fira Sans', sans-serif;
+    margin: o;
+    padding: 0;
+}
+body{
+   background-image: url("https://www.teahub.io/photos/full/37-374747_storm-wallpaper-and-background-image-id374170-dark-clouds.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+    font-family:monospace;
+    color: white;
+    text-align: center;
+    border:double;
+    border-color: purple;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size:xx-large;
+}
+img{
+    height: 450px;
+    width: 1100px;
+    margin-left: 125px;
+}
+h2{
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+h3{
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+p{
+    color:white;
+    font-family: monospace;
+    margin-left: 125px;
+    margin-right: 125px;
+    font-size: large;
+}
+ul{
+    color:white;
+    font-family: monospace;
+    margin-left: 150px;
+}
+.images img{
+width: 400px;
+height: 300px;
+padding-top: 20px;
+}
+.row1, .row2, .row3{
+    display: flex;
+}
+.column{
+    flex: 25%;
+}
+.album img{
+    width: 200px;
+    height: 200px;
+    border: double; 
+}
